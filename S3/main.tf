@@ -4,7 +4,8 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 
-}
+} 
+
 resource "aws_s3_bucket" "example" {
   bucket = "poc-121-141"
   force_destroy = true
